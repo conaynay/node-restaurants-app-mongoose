@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: 0D2cJK2G05NTVeXmtac9JuBQ6YCvyL6HlPTCAdRl5iDOhJicLFgqaI5o0cqFFs4AFIthZwO9uYSdCN1g6YQ+aaDq1xZRX42T96OiNKI4mxovfhgmgrsBecAySi5eRcr5IsYBCiaoefxdVmGMe0KIRpnBCokQcexrm4j+uTVFiz/q8XYM/sPzyfr28Zwkfd4roXXFb7RStFsOYk3/mdibt+5g5JQVEu/dOP75WIjYGmsiZDD7vrWP3IPN62AlxR1WOhEOyA1v1Xx2kEqXfdcEWFUTfpgOawOi8EpqRh/n1DjUlUQ51Vx04kvaou50wmNQBThg8SJDikVdhEjHfeSGkOG3amAT8i/LqPO/WLV8xCm0uvA/qXSJdPIRhRfEj0yojjVlTpdP4CaYsIIGZwgdrCGF7+razzaqCa70hGsu1cgPRWcO3E3z3TvfobfQyz1QYrR39FlF5f3SZmxNug/Zrvh7snQXijDwOUNMbODvGWVgfHx+HQjXaeiOpUy2gLu328J2WEjAeJgDN/YpUzzy4uR7m4eONAzo4WXZuTz+m5Z3tPlqyPlkSRSj3wOQMDJavE7RmztwVrWLJmmWXtMRNGyxqHvVRjY3jNUh9k7Ww1bznw6zq85nbJsS8DsclMXcPrLuLPWC1pSefe613TZj2Qaje5DwnnMTeODVOIUUBP8=
+  app: shrouded-stream-36344
+  on:
+    repo: conaynay/node-restaurants-app-mongoose
